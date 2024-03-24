@@ -1,8 +1,7 @@
-setwd("/Users/cpadamson/Dropbox/Grad/FISH 558/Lab 09 - Catch curve and mortality")
+setwd("~/Dropbox/Grad/FISH 558/Labs/Lab 09 - Catch curve and mortality")
 library(ggplot2)
 library(FSAdata)
 library(FSA)
-
 
 # Question 2 ####
 
