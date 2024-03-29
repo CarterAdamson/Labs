@@ -26,14 +26,12 @@ cc.basic <- catchCurve(number~age,data=cat.short,ages2use=4:14) #peak occurs at 
 summary(cc.basic)
 confint(cc.basic)
 cbind(Est=coef(cc.basic),confint(cc.basic))
-plot(cc.basic, main="Basic Catch Curve")
 
 cc.chaprob <- chapmanRobson(number~age,data=cat,ages2use=4:17)
 summary(cc.chaprob)
 cbind(Est=coef(cc.chaprob),confint(cc.chaprob))
-par(mar=c(5.1,4.1,4.1,2.1)) #reset figure margins, b/c otherwise can lead to errors with the plot function below...
-plot(cc.chaprob, main="Chapman Robson method")
 
+plot(cc.basic, main="Basic Catch Curve")
 
 # Question 3 ####
 
