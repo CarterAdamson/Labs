@@ -38,7 +38,7 @@ pred.sr.ric <- exp(predict(sr.ric))*exp((SEE.sr.ric^2)/2)
 
 #plot
 plot.sr <- ggplot(data=sardine, aes(x=S, y=R))+geom_point()+
-            theme_bw()+labs(x="Spanwers", y="Recruits")+
+            theme_bw()+labs(x="Spawners", y="Recruits")+
             geom_line(aes(y=pred.sr.ind,color="Density Independent"))+
             geom_line(aes(y=pred.sr.bh,color="Beverton-Holt"))+
             geom_line(aes(y=pred.sr.ric,color="Ricker"))
@@ -113,7 +113,7 @@ plot.3c <- ggplot(data=plot.3.data, aes(x=F, y=YPR))+geom_line()+
 F <- c(0.94, 0.5383887, 0.5808088, 0.426088)
 YPR <- c(0.1668414, 0.1564271, 0.159070255, 0.146347072) #kg
 color <- c("Fmax", "F0.1","F_30%","F_40%")
-points.df <- data.frame(F=F.vector, YPR = YPR.vector, color = color.vector)
+points.df <- data.frame(F=F, YPR = YPR, color = color)
 plot.3c <- plot.3c + geom_point(data=points.df, aes(color=color))
 plot.3c
 
@@ -136,12 +136,13 @@ plot.3d
 ref <- c("Fmax", "F0.1", "F_30%", "F_40%")
 u <- 1-exp(-F)
 YPR <- c(0.1668414, 0.1564271, 0.159070255, 0.146347072) #kg
-Percent_max_YPR <- YPR/(max(YPR)*100)
+Percent_max_YPR <- (YPR/0.1668414)*100
 SPR <- c(0.13506823,0.26010092,0.24193365,0.31999921) #kg
 Percent_max_SPR <- c(16.772855, 32.299491, 30.043468, 39.737697)
 table.3e <- data.frame(Reference_point=ref, F=F, u=u, YPR=YPR,
                        Percent_max_YPR=Percent_max_YPR, SPR=SPR,
                        Percent_max_SPR=Percent_max_SPR)
+table.3e
 
 ## f - tradeoffs, recommend a reference point
 
@@ -151,3 +152,4 @@ table.3e <- data.frame(Reference_point=ref, F=F, u=u, YPR=YPR,
 # QUESTION 5 ####
 #1 hr so far
 #3 more hrs as of 9:30
+#+2
