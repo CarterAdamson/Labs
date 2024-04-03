@@ -2,17 +2,6 @@ library(ggplot2)
 library(here)
 library(fishmethods)
 
-# QUESTION 1 ####
-
-## a - Conclusions from Table 1 ####
-
-## b - Relate AIC, dAIC, and Weights ####
-
-## c - Make conclusions from figure, relate to table ####
-
-## d - do the results indicate how occupancy changes w disturbance history? ####
-
-
 
 # QUESTION 2 ####
 
@@ -69,8 +58,6 @@ abline(h=0, lty=2)
 hist(resid(sr.ric), xlab="Residual", main = "Ricker")
 plot(resid(sr.ric)~fitted(sr.ric), main = "Ricker")
 abline(h=0, lty=2)
-
-## d - which model is best? ####
 
 
 
@@ -143,13 +130,3 @@ table.3e <- data.frame(Reference_point=ref, F=F, u=u, YPR=YPR,
                        Percent_max_YPR=Percent_max_YPR, SPR=SPR,
                        Percent_max_SPR=Percent_max_SPR)
 table.3e
-
-## f - tradeoffs, recommend a reference point
-
-
-# QUESTION 4 ####
-
-# QUESTION 5 ####
-#1 hr so far
-#3 more hrs as of 9:30
-#+2
