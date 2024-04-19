@@ -3,43 +3,38 @@ library(ggplot2)
 library(tidyverse)
 library(lattice)
 
-# QUESTION 1
+# QUESTION 1 ####
 
-#a - graphical exploration
+##a - graphical exploration-----####
 #set up data w cpue
 croaker <- read.csv(here("Lab 12 - CPUE and Standardization","Croaker catch final.csv"))
 croaker$CPUE=croaker$Count/((croaker$TowDist/1000)*(croaker$NetWidth/(0.3048*1000))) 
 croaker$logCPUE1<-log(croaker$CPUE+1)
 
-#explore month and region effects
-histogram(~ Count,data=croaker)
-histogram(~ Count,data=subset(croaker, CPUE>0))
-
-histogram(~ logCPUE1|as.factor(Month),data=croaker)
-histogram(~ logCPUE1|as.factor(Region),data=croaker)
-
-plot(CPUE~Month, data=croaker)
-plot(CPUE~Region, data=croaker)
-
-max(croaker$Month) #11
-min(croaker$Month) #3
-histogram(~Month, data=croaker, breaks=8)
-histogram(~Region, data=croaker)
-histogram(~Month|Region, data=croaker) # none in month 8(7?) except for region 5
+#explore month and region effects -- less useful plots commented out
+histogram(~ Count,data=croaker, main="Histogram of Catch")
+histogram(~ Count,data=subset(croaker, CPUE>0), main="Histogram of Non-Zero Catch")
+#histogram(~ logCPUE1|as.factor(Month),data=croaker)
+#histogram(~ logCPUE1|as.factor(Region),data=croaker)
+#plot(CPUE~Month, data=croaker)
+#plot(CPUE~Region, data=croaker)
+#max(croaker$Month) #11
+#min(croaker$Month) #3
+#histogram(~Month, data=croaker, breaks=8)
+#histogram(~Region, data=croaker)
+#histogram(~Month|Region, data=croaker)
 histogram(~Region|Month, data=croaker)
-coplot(CPUE~Month|Region, croaker)
-
+#coplot(CPUE~Month|Region, croaker)
 croaker %>% 
   ggplot(aes(x=Month, y=logCPUE1, group=Month)) + 
   geom_boxplot() +facet_wrap(~Region)
 croaker %>% 
   ggplot(aes(x=Region, y=logCPUE1, group=Region)) + 
   geom_boxplot() +facet_wrap(~Month)
+#croaker %>% ggplot(aes(x=Month, y=CPUE))+geom_bar(stat="identity")+facet_wrap(~Region)
+#croaker %>% ggplot(aes(x=Region, y=CPUE))+geom_bar(stat="identity")+facet_wrap(~Month)
 
-croaker %>% ggplot(aes(x=Month, y=CPUE))+geom_bar(stat="identity")+facet_wrap(~Region)
-croaker %>% ggplot(aes(x=Region, y=CPUE))+geom_bar(stat="identity")+facet_wrap(~Month)
-
-#proportions by month and region-----####
+##b - proportions by month and region-----####
 croakprop <- croaker %>%
   group_by(Month, Region) %>%
   summarise(ntot=n(), non_zero= sum(Count != 0)) %>% 
@@ -58,7 +53,8 @@ croakprop %>%
   ggplot(aes(x=Region, y=catchprop, group=Region)) + 
   geom_boxplot() +facet_wrap(~Month) #because there is only one data pt for each month/region, the boxplots are the same as bar graphs
 
-#nominal andstrat mean from lab12-----####
+##d - subset Month and plot new index-----####
+##nominal andstrat mean from lab12-----
 croak.mean.nominal = croaker %>% group_by(Year) %>% 
   summarize(mean = mean(CPUE),
             var  = var(CPUE),
@@ -66,7 +62,6 @@ croak.mean.nominal = croaker %>% group_by(Year) %>%
             cv   = sqrt(var)/mean,
             n    = length(CPUE),
             se   = sd/sqrt(n))
-croak.mean.nominal
 croak.mean = croaker %>% group_by(Year, StratNum) %>% 
   summarize(strat.mean = mean(CPUE),
             strat.var  = var(CPUE),
@@ -83,23 +78,12 @@ croak.index = croak.mean %>% group_by(Year) %>%
             cv    = sqrt(var)/index,
             LCI   = index-1.96*se,
             UCI   = index+1.96*se)  
-croak.index
-par(mfrow=c(1,1))
-# Plot mean and SE
-plot(index~Year, data=croak.index, xlab="Year",ylab="Index",main="Croaker Indices (+/- SE)",
-     ylim=c(min(index-se),max(index+se)),type="b")
-lines(croak.mean.nominal$Year, croak.mean.nominal$mean, lty=2, col="red")
-with(croak.index,  #the with(X, ...) allows you to refer to columns within the X dataframe, similar to when you "attach()" a dataframe
-     segments(x0=Year,x1=Year, y0=index-se, y1=index+se) 
-)
-legend("topright",c("Stratified Mean","Arithmetic Mean"),col=c('black','red'),lty=c(1,2))
 
-#strat mean from with fewer months -----####
+##strat mean with fewer months ----
 #include months 5,6,7,9
 croak.subset <- filter(croaker,Month>4)
 croak.subset <- filter(croak.subset, Month<10)
-croak.subset <- croak.subset <- filter(croak.subset, Month!=8)
-
+croak.subset <- filter(croak.subset, Month!=8)
 croak.mean.strat <-  croak.subset %>% group_by(Year, StratNum) %>% 
   summarize(strat.mean = mean(CPUE),
             strat.var  = var(CPUE),
@@ -117,22 +101,11 @@ croak.index.2 = croak.mean.strat %>% group_by(Year) %>%
             LCI   = index-1.96*se,
             UCI   = index+1.96*se)  
 croak.index.2
-
-#make a ggplot with all three (croak.mean.nominal, croak.index, croak.index.2)
-#dotted lines for the old two, solid line for the new one
-
-
-
-#non ggplot version:
-par(mfrow=c(1,1))
-# Plot mean and SE
-plot(index~Year, data=croak.index, xlab="Year",ylab="Index",main="Croaker Indices (+/- SE)",
-     ylim=c(min(index-se),max(index+se)),type="b")
-lines(croak.mean.nominal$Year, croak.mean.nominal$mean, lty=2, col="red")
-with(croak.index,  #the with(X, ...) allows you to refer to columns within the X dataframe, similar to when you "attach()" a dataframe
-     segments(x0=Year,x1=Year, y0=index-se, y1=index+se) 
-)
-legend("topright",c("Stratified Mean","Arithmetic Mean"),col=c('black','red'),lty=c(1,2))
-
-
-
+croak.indecies <- data.frame(croak.mean.nominal, croak.index, croak.index.2)
+#make a ggplot with all three indecies
+plot.mean <- ggplot(data=croak.indecies, aes(x=Year, y=mean, colour="Arithmetic Mean"))+
+  geom_line(linetype="dashed")+ theme_bw()+labs(y="Croaker index")+
+  geom_line(data=croak.indecies, aes(x=Year, y=index, colour = "Stratified Mean (all months)"), linetype="dashed")+
+  geom_line(data=croak.indecies, aes(x=Year, y=index.1, colour="Stratified Mean (subset)"), linetype="solid") +
+  geom_errorbar(aes(ymin=LCI.1, ymax=UCI.1, color="Stratified Mean (subset)"), width=0.2, linetype="dotted") #error bars if wanted
+plot.mean
