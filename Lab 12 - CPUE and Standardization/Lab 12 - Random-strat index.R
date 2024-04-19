@@ -104,7 +104,10 @@ FracPos #Only 35% of tows were positive!
 plot(CPUE~Year, data=AC)
 plot(log(CPUE+1)~Year, data=AC)
   #Perhaps not super useful.  But what are the differences between the two plots?
+#y axis scale is a major difference, and less grouping on zero
 #how many circles are stacked at 0? how can we know
+#subset data for 0, count
+test<-subset(AC, CPUE<1) #test is length 3064
 
 ### Boxplots
   #See a figure with a description of boxplots here: https://r-graph-gallery.com/boxplot.html.
@@ -114,7 +117,7 @@ plot(log(CPUE+1)~Year, data=AC)
   #That is a poor description. 
 
   #Write notes here:
-
+#again, scales differ between logged version, and logged version is a bit more readable
   #Boxplot using base package
   boxplot(CPUE~Year, data=AC, ylab="CPUE")
   boxplot(log(CPUE+1)~Year, data=AC, ylab="log(CPUE+1)") #Notice how log(CPUE+1) is a bit more informative
@@ -133,7 +136,11 @@ plot(log(CPUE+1)~Year, data=AC)
 
 ## DISCUSS WITH YOUR PEERS: ----
   # - What patterns and observations did you make about the dataset?
+  #lots of fuckin zeroes
+  #potential decrease of cpue over time
+  #cpue may be lower generally for depth 1
   # - What were the benefits/disadvantages of different plot types?
+  #including logcpue helped identify patterns/more readable. the ggplot boxplots were helpful showing different levels
   # - When would you use CPUE vs. log(CPUE+1)?  Also, why do we add a 1 when logging?
   
 #Typically, you would explore the data thoroughly before analyzing...
@@ -179,8 +186,6 @@ AC.mean = AC %>% group_by(Year, StratNum) %>%
             strat.var  = var(CPUE),
             strat.n    = length(CPUE))
 AC.mean
-
-  #(Correct code available at bottom of script, but do it without looking!)
 
 
 #Merge with the stratum-specific weights and the TotalN (based on area)
