@@ -83,7 +83,7 @@ AC$log.area=log(AC$Area)
 #Calc CPUE
 AC$CPUE=AC$Count/AC$Area
 head(AC)
-
+ 
 
 ## Clean up dataset   ####################
 
