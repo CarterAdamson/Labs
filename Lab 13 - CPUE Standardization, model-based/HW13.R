@@ -155,7 +155,7 @@ plot.d.data <- as.data.frame(cbind(as.numeric(levels(pinfish$year)), nominal$mea
                                    summ.gamma$mean/mean(summ.gamma$mean),summ.poisson$mean/mean(summ.poisson$mean),
                                    summ.nb$mean/mean(summ.nb$mean)))
 names(plot.d.data) <- c("year","nom", "norm", "lognorm","gamma","poisson", "nb")
-palette <- c( "#FF0033", "#33CC33", "#FFCC00", "#66CCCC", "#FF33FF", "#9900FF")
+palette <- c( "#FF0033", "#33CC33", "#FFCC00", "#66CCCC", "#FF99FF", "#9900FF")
 plot.d.data %>% ggplot(aes(x=year, y=nom, color="Nominal Means"))+geom_line()+
   geom_line(aes(y=norm, color="Normal GLM"))+
   geom_line(aes(y=lognorm, color="Lognormal GLM"))+
