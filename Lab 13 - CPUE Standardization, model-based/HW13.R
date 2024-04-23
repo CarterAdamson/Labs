@@ -47,11 +47,6 @@ nominal = pinfish %>% group_by(year) %>%
 
 ###1: normal GLM----
 mod.norm=glm(CPUE~year+veg+bot+depth+sal+temp, data=pinfish, family=gaussian(link='identity'))
-#deviance explained
-dev.norm = (mod.norm$null.deviance - mod.norm$deviance) / mod.norm$null.deviance
-#diagnostic plots
-par(mfrow=c(1,2))
-plot(mod.norm, which=c(1:2))
 #standardized predictions
 pred.data<-data.frame(year=levels(pinfish$year),veg="Seagrass", bot="Sand",
                       depth=mean(pinfish$depth), sal=mean(pinfish$sal), temp=mean(pinfish$temp))
@@ -65,10 +60,6 @@ summ.norm$UCI<-summ.norm[,2]+1.96*summ.norm[,3]  #Upper 95% Confidence Interval 
 
 ###2: lognormal GLM----
 mod.lognorm=glm(logCPUE~year+veg+bot+depth+sal+temp, data=pinfish,family=gaussian(link='identity'))
-#deviance explained
-dev.lognorm = (mod.lognorm$null.deviance - mod.lognorm$deviance) / mod.lognorm$null.deviance
-#diagnostic plots
-plot(mod.lognorm, which=c(1,2)) #the straight line here represents CPUE = 0 (log 0 is 1)
 #import and run bias correction function, then add summary stats
 lnorm.bias.cor=dget(here("Lab 13 - CPUE Standardization, model-based", "lnormBC.r"))  
 summ.cor=lnorm.bias.cor(mod.lognorm)
@@ -80,11 +71,6 @@ summ.lognorm$UCI<-summ.cor[,1]+1.96*summ.cor[,2]
 
 ###3: gamma GLM----
 mod.gamma=glm(CPUE1~year+veg+bot+depth+sal+temp, data=pinfish,family=Gamma(link='inverse'))
-#deviance explained
-dev.gamma = (mod.gamma$null.deviance - mod.gamma$deviance) / mod.gamma$null.deviance
-#diagnostic plot (limited usefulness)
-par(mfrow=c(1,1))
-plot(mod.gamma, which=c(1))
 #predictions
 out.gamma<-predict(mod.gamma, newdata=pred.data, type="response",se.fit=T)
 #summary data frame
@@ -96,11 +82,6 @@ summ.gamma$UCI<-summ.gamma[,2]+1.96*summ.gamma[,3]
 
 ###4: poisson GLM----
 mod.poisson=glm(CPUE~year+veg+bot+depth+sal+temp, data=pinfish, family=poisson)
-#deviance explained
-dev.poisson = (mod.poisson$null.deviance - mod.poisson$deviance) / mod.poisson$null.deviance
-#diagnostic: rootogram
-breaks = seq(0, 300, by=5)
-rootogram(mod.poisson, breaks=breaks)
 #predictions
 out.poisson<-predict(mod.poisson, newdata=pred.data, type="response", se.fit=T)
 #summary data frame
@@ -112,10 +93,6 @@ summ.poisson$UCI<-summ.poisson[,2]+1.96*summ.poisson[,3]
 
 ###5: nb GLM----
 mod.nb=glm.nb(CPUE~year+veg+bot+depth+sal+temp, data=pinfish, link="log")
-#deviance explained
-dev.nb = (mod.nb$null.deviance - mod.nb$deviance) / mod.nb$null.deviance
-#diagnostic: rootogram
-rootogram(mod.nb, breaks=breaks)
 #predictions
 out.nb<-predict(mod.nb, newdata=pred.data, type="response", se.fit=T)
 #summary data frame
@@ -166,12 +143,33 @@ plot.d.data %>% ggplot(aes(x=year, y=nom, color="Nominal Means"))+geom_line()+
   scale_color_manual(values=palette)
 
 
+##e - determine best model ####----
+#diagnostic plots
+#normal
+par(mfrow=c(1,2))
+plot(mod.norm, which=c(1:2))
+#lognormal
+plot(mod.lognorm, which=c(1,2)) #the straight line here represents CPUE = 0 (log 0 is 1)
+#gamma (limited usefulness)
+par(mfrow=c(1,1))
+plot(mod.gamma, which=c(1))
+#poisson: rootogram
+breaks = seq(0, 300, by=5)
+rootogram(mod.poisson, breaks=breaks)
+#nb: rootogram
+rootogram(mod.nb, breaks=breaks)
 
+#AIC
+AIC(mod.norm, mod.poisson, mod.nb)
 
+#deviance explained
+dev.norm = (mod.norm$null.deviance - mod.norm$deviance) / mod.norm$null.deviance
+dev.lognorm = (mod.lognorm$null.deviance - mod.lognorm$deviance) / mod.lognorm$null.deviance
+dev.gamma = (mod.gamma$null.deviance - mod.gamma$deviance) / mod.gamma$null.deviance
+dev.poisson = (mod.poisson$null.deviance - mod.poisson$deviance) / mod.poisson$null.deviance
+dev.nb = (mod.nb$null.deviance - mod.nb$deviance) / mod.nb$null.deviance
 
-
-
-
-
-
+##f - plot covariate effects ####----
+par(mfrow=c(3,2))
+termplot(mod.nb, partial.resid=F, se=T, col.se="black", col.term="black")
 
