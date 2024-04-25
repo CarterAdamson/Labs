@@ -90,6 +90,7 @@ names(summ.poisson) <- c("year", "mean", "SE")
 summ.poisson$CV<-summ.poisson$SE/summ.poisson$mean
 summ.poisson$LCI<-summ.poisson[,2]-1.96*summ.poisson[,3]
 summ.poisson$UCI<-summ.poisson[,2]+1.96*summ.poisson[,3]
+#see section e for rootogram
 
 ###5: nb GLM----
 mod.nb=glm.nb(CPUE~year+veg+bot+depth+sal+temp, data=pinfish, link="log")
@@ -101,6 +102,7 @@ names(summ.nb) <- c("year", "mean", "SE")
 summ.nb$CV<-summ.nb$SE/summ.nb$mean
 summ.nb$LCI<-summ.nb[,2]-1.96*summ.nb[,3]
 summ.nb$UCI<-summ.nb[,2]+1.96*summ.nb[,3]
+#see section e for
 
 
 ##c - multipanel plot ####----
@@ -139,8 +141,8 @@ plot.d.data %>% ggplot(aes(x=year, y=nom, color="Nominal Means"))+geom_line()+
   geom_line(aes(y=gamma, color="Gamma GLM"))+
   geom_line(aes(y=poisson, color="Poisson GLM"))+
   geom_line(aes(y=nb, color="Negative Binomial GLM"))+
-  theme_bw()+labs(x="Year", y="Pinfish Index", color="Index Type")+
-  scale_color_manual(values=palette)
+  labs(x="Year", y="Pinfish Index", color="Index Type")+
+  theme_bw()+scale_color_manual(values=palette)
 
 
 ##e - determine best model ####----
