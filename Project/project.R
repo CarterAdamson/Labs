@@ -47,5 +47,4 @@ for(i in 1:length(sals$ID)){
   }
 #handle NAs for Sex -- reassign all NAs to U
 ch.full$sex <- ch.full$sex %>% replace_na("U")
-
-
+write.csv(ch.full, here("Project", "salch.csv"))
