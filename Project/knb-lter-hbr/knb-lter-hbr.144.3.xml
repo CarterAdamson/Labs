@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-hbr.144.3"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=HBR,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/cd5f5a03df194930bf87eb12157b8182</alternateIdentifier><title>Mark-recapture data of the Northern Spring Salamander (Gyrinophilus porphyriticus), Hubbard Brook Experimental Forest, 2012 – present</title>
+    <creator>
+      <individualName>
+        <givenName>Winsor</givenName>
+        <givenName>H</givenName>
+        <surName>Lowe</surName>
+      </individualName>
+      <organizationName>University of Montana</organizationName>
+      <electronicMailAddress>winsor.lowe@umontana.edu</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">https://orcid.org/0000-0001-5782-0200</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Brett</givenName>
+        <givenName>R</givenName>
+        <surName>Addis</surName>
+      </individualName>
+      <userId
+        directory="https://orcid.org">https://orcid.org/0000-0002-3794-3200</userId>
+      <role>associatedParty</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jon</givenName>
+        <givenName>M</givenName>
+        <surName>Davenport</surName>
+      </individualName>
+      <organizationName>Appalachian Staate Univerity</organizationName>
+      <electronicMailAddress>davenportjm@appstate.edu</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">https://orcid.org/0000-0002-9911-2779</userId>
+      <role>associatedParty</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Leah</givenName>
+        <givenName>K</givenName>
+        <surName>Swartz</surName>
+      </individualName>
+      <userId
+        directory="https://orcid.org">https://orcid.org/0000-0003-2315-8727</userId>
+      <role>associatedParty</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Madaline</givenName>
+        <surName>Cochrane</surName>
+      </individualName>
+      <organizationName>University of Montana</organizationName>
+      <electronicMailAddress>Madaline.cochrane@umontana.edu</electronicMailAddress>
+      <userId
+      directory="https://orcid.org">https://orcid.org/0000-0003-1080-8495</userId>
+      <role>associatedParty</role>
+    </associatedParty>
+    <pubDate>2022-09-01</pubDate>
+    <abstract>
+      <para>This data set includes spatially explicit mark-recapture data of the
+Northern Spring Salamander (Gyrinophilus porphyriticus) collected during
+the summer months (June – August) from downstream and upstream reaches
+in multiple streams in the Hubbard Brook Experimental Forest. Downstream
+reaches begin at the confluence with the Main Hubbard and extend
+upstream 500 meters and upstream reaches begin at the weir and extend
+downstream 500 meters. Downstream reaches contain brook trout and
+upstream reaches do not. We used a robust design framework with
+approximately 9 surveys per reach each summer (3 primary occasions with
+3 secondary occasions each). Salamanders were captured by hand and
+marked with either Visual Implant Elastomer and/or a PIT tag.</para>
+      <para>These data were gathered as part of the Hubbard Brook Ecosystem Study
+(HBES). The HBES is a collaborative effort at the Hubbard Brook
+Experimental Forest, which is operated and maintained by the USDA Forest
+Service, Northern Research Station.</para>
+      <para>These data have been published in the following papers: </para>
+      <para>Lowe WH, Addis
+BR, Smith MR, Davenport JM. The spatial structure of variation in
+salamander survival, body condition and morphology in a headwater stream
+network. Freshwater Biol. 2018;63:1287–1299.
+https://doi.org/10.1111/fwb.13133</para>
+      <para>Lowe, W. H., and Addis, B. R.. 2019. Matching habitat choice and plasticity contribute to phenotype–environment covariation in a stream salamander. Ecology 100( 5):e02661. 10.1002/ecy.2661 </para>
+      <para>Lowe, W.H., et al. Hydrologic variability contributes to reduced survival through metamorphosis in a stream salamander. Proceedings of the National Academy of Sciences 2019; 116.39: 19563-19570.</para>
+      <para>Bryant, A.R., Gabor, C.R., Swartz, L.K., Wagner, R., Cochrane, M.M., Lowe, W.H. Differences in corticosterone release rates of larval Spring Salamanders (Gyrinophilus porphyriticus) in response to native fish presence. Biology 2022; 11.484. https://doi.org/10.3390/biology11040484</para>
+      <para>Addis, B.R., and W.H. Lowe. Environmentally associated variation in dispersal distance affects inbreeding risk in a stream salamander." The American Naturalist 2022.</para>
+      <para/>
+    </abstract>
+    <keywordSet>
+      <keyword>ecosystems</keyword>
+      <keyword>forests</keyword>
+      <keyword>watersheds</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>HBR</keyword>
+      <keyword>Hubbard Brook LTER</keyword>
+      <keyword>Hubbard Brook Experimental Forest</keyword>
+      <keyword>Hubbard Brook Ecosystem Study</keyword>
+      <keyword>HBES</keyword>
+      <keyword>HBEF</keyword>
+      <keyword>New Hampshire</keyword>
+      <keyword>NH</keyword>
+      <keyword>White Mountain National Forest</keyword>
+      <keywordThesaurus>HBES Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>biota</keyword>
+      <keyword>climatologyMeteorologyAtmosphere</keyword>
+      <keywordThesaurus>ISO 19115 Topic Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Climate change</keyword>
+      <keyword>Climate change effects</keyword>
+      <keyword>Ecology, Ecosystems, &amp; Environment</keyword>
+      <keywordThesaurus>National Research &amp; Development Taxonomy</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Gyrinophilus porphyriticus</keyword>
+      <keyword>mark-recapture</keyword>
+      <keyword>headwater streams</keyword>
+      <keyword>salamander</keyword>
+      <keywordThesaurus>Hubbard Brook Ecosystem Study</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>populations</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. </para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <distribution
+      id="10.6073/pasta/cd5f5a03df194930bf87eb12157b8182" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+            function="information">https://doi.org/10.6073/pasta/cd5f5a03df194930bf87eb12157b8182</url></online></distribution><coverage>
+      <geographicCoverage>
+        <geographicDescription>Hubbard Brook Experimental Forest in central New Hampshire, USA. Bear, Canyon, Cascade, Paradise, and Zigzag Brooks are hydrologically independent and flow into the Main Hubbard.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-71.8062</westBoundingCoordinate>
+          <eastBoundingCoordinate>-71.70022</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.914</northBoundingCoordinate>
+          <southBoundingCoordinate>43.959</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-06-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2021-08-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonId
+              provider="https://gbif.org">1</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonId
+                provider="https://gbif.org">44</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Amphibia</taxonRankValue>
+              <taxonId
+                  provider="https://gbif.org">131</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Caudata</taxonRankValue>
+                <taxonId
+                    provider="https://gbif.org">953</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Plethodontidae</taxonRankValue>
+                  <taxonId
+                      provider="https://gbif.org">6748</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Gyrinophilus</taxonRankValue>
+                    <taxonId
+                        provider="https://gbif.org">2431422</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Gyrinophilus porphyriticus</taxonRankValue>
+                      <taxonId
+        provider="https://gbif.org">2431423</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <organizationName>Hubbard Brook Ecosystem Study</organizationName>
+      <electronicMailAddress>hbr-im@lternet.edu</electronicMailAddress>
+    </contact>
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@edirepository.org</electronicMailAddress><onlineUrl>https://edirepository.org</onlineUrl><userId
+          directory="https://ror.org">0330j0z60</userId></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <para>Capture–mark–recapture (CMR) surveys were conducted mid-June through mid-September of 2012–2015 and 2018-2021 for three streams (Bear Brook, Paradise Brook, and Zigzag Brook). 
+CMR surveys were conducted for two additional streams (Canyon Brook and Cascade Brook) from 2012-2014. 
+Each stream was divided into two 500‐m‐long reaches (downstream and upstream), except for Upper Canyon which was only 330-m long.
+Downstream reaches started at the confluence with Hubbard Brook and weirs set the upstream end of the upstream reaches. 
+Distances between upstream and downstream reaches varied by 400, 0, 0, 250, and 500 m in Bear, Canyon, Cascade, Paradise, and Zigzag Brooks, respectively.
+Each stream was surveyed nine times in each field season. We conducted three surveys of each stream during three two-week periods distributed evenly throughout the field season (i.e. primary number). In each survey, a constant search effort was maintained by turning one cover object per meter of stream length. Salamanders were individually marked with visible implant elastomer from 2012-2015 and 8-mm PIT-tags from 2018-2021, then returned to the same location where they were found (i.e., cover object and meter of stream).</para>
+          <para>All G. porphyriticus individuals were photographed to quantify body morphology. Animals were placed on a level stage with the camera approximately 20 cm above the stage, which allowed us to photograph the entire dorsal surface of the animal, along with a ruler. The ruler was used to calibrate morphological measurements in mm. We used these photographs to measure head, trunk, and leg morphology, as well as SVL, the standard measure of body size in amphibians. We also recorded the habitat (riffle, pool) where each salamander was captured, based on flow and gradient conditions 0.5 m upstream and downstream of a salamander’s location.
+We also recorded the meter location (LongLoc) where we captured each individual, such that locations at the confluence of the Hubbard Brook were 0 and increased by meter of stream length as you moved upstream.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research at Hubbard Brook Experimental Forest (1988)</title>
+      <personnel>
+        <individualName>
+          <givenName>Timothy</givenName>
+          <givenName>J</givenName>
+          <surName>Fahey</surName>
+        </individualName>
+        <organizationName>Cornell University</organizationName>
+        <electronicMailAddress>tjf5@cornell.edu</electronicMailAddress>
+        <userId
+            directory="https://orcid.org">https://orcid.org/0000-0003-1283-1162</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation (NSF) 8702331</funding>
+      <relatedProject>
+        <title>Long-term Ecological Research (LTER) at the Hubbard Brook Experimental Forest (1992)</title>
+        <personnel>
+          <individualName>
+            <givenName>Timothy</givenName>
+            <givenName>J</givenName>
+            <surName>Fahey</surName>
+          </individualName>
+          <organizationName>Cornell University</organizationName>
+          <electronicMailAddress>tjf5@cornell.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">https://orcid.org/0000-0003-1283-1162</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) 9211768</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: Hubbard Brook Experimental Forest (1998)</title>
+        <personnel>
+          <individualName>
+            <givenName>Timothy</givenName>
+            <givenName>J</givenName>
+            <surName>Fahey</surName>
+          </individualName>
+          <organizationName>Cornell University</organizationName>
+          <electronicMailAddress>tjf5@cornell.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">https://orcid.org/0000-0003-1283-1162</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) 9810221</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Long-Term Ecological Research (LTER) at Hubbard Brook Experimental Forest (HBR-LTER) (2005)</title>
+        <personnel>
+          <individualName>
+            <givenName>Timothy</givenName>
+            <givenName>J</givenName>
+            <surName>Fahey</surName>
+          </individualName>
+          <organizationName>Cornell University</organizationName>
+          <electronicMailAddress>tjf5@cornell.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">https://orcid.org/0000-0003-1283-1162</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) 0423259</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Long-Term Ecological Research at Hubbard Brook Experimental Forest (2010)</title>
+        <personnel>
+          <individualName>
+            <givenName>Timothy</givenName>
+            <givenName>J</givenName>
+            <surName>Fahey</surName>
+          </individualName>
+          <organizationName>Cornell University</organizationName>
+          <electronicMailAddress>tjf5@cornell.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">https://orcid.org/0000-0003-1283-1162</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) 1114804</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: Long Term Ecological Research at the Hubbard Brook Experimental Forest (2016)</title>
+        <personnel>
+          <individualName>
+            <givenName>Peter</givenName>
+            <givenName>M</givenName>
+            <surName>Groffman</surName>
+          </individualName>
+          <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+          <electronicMailAddress>groffmanp@caryinstitute.org</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">https://orcid.org/0000-0001-8371-6255</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) 1637685</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Long-Term Ecological Research at the Hubbard Brook Experimental Forest (2016)</title>
+        <personnel>
+          <individualName>
+            <givenName>Gary</givenName>
+            <givenName>M</givenName>
+            <surName>Lovett</surName>
+          </individualName>
+          <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+          <electronicMailAddress>lovettg@caryinstitute.org</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">https://orcid.org/0000-0002-8411-8027</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) 1633026</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>The causes and consequences of variation in dispersal distance</title>
+        <personnel>
+          <individualName>
+            <givenName>Winsor</givenName>
+            <givenName>H</givenName>
+            <surName>Lowe</surName>
+          </individualName>
+          <organizationName>University of Montana</organizationName>
+          <electronicMailAddress>winsor.lowe@umontana.edu</electronicMailAddress>
+          <userId
+            directory="https://orcid.org">https://orcid.org/0000-0001-5782-0200</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) DEB-1655653</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>Coexistence in stream metacommunities</title>
+        <personnel>
+          <individualName>
+            <givenName>Winsor</givenName>
+            <givenName>H</givenName>
+            <surName>Lowe</surName>
+          </individualName>
+          <organizationName>University of Montana</organizationName>
+          <electronicMailAddress>winsor.lowe@umontana.edu</electronicMailAddress>
+          <userId
+      directory="https://orcid.org">https://orcid.org/0000-0001-5782-0200</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation (NSF) DEB-1050459</funding>
+      </relatedProject>
+    </project>
+    <dataTable
+      id="ad0c647fa3920058ae1fe0f2432c05d7" scope="document"
+          system="https://pasta.edirepository.org">
+      <entityName>HubbardBrook_SalamanderCaptureRecapture</entityName>
+      <entityDescription>Capture-mark-recapture data for Hubbard Brook salamanders</entityDescription>
+      <physical>
+        <objectName>HubbardBrook_SalamanderCaptureRecapture.csv</objectName>
+        <size
+          unit="bytes">885797</size>
+        <authentication
+              method="MD5">eb2f74714dfb644309705ff7b5352379</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+                    function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hbr/144/3/ad0c647fa3920058ae1fe0f2432c05d7</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ElastomerID</attributeName>
+          <attributeDefinition>Visual Implant Elastomer ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Visual Implant Elastomer ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PITTagID</attributeName>
+          <attributeDefinition>PIT tag ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>PIT tag ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date when salamander was captured</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SurNum</attributeName>
+          <attributeDefinition>Site specific survey number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site specific survey number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Primary</attributeName>
+          <attributeDefinition>Primary occasion number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Primary occasion number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>OldNew</attributeName>
+          <attributeDefinition>Indicates whether animal is a recapture (old) or new individual (new)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>new individual</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>recapture</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Species of salamanader</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GP</code>
+                    <definition>Gyrinophilus porphyriticus</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Sex</attributeName>
+          <attributeDefinition>Sex of salamander</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Male</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>U</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Stage</attributeName>
+          <attributeDefinition>Developmental stage of salamander</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Adult</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Larva</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Metamorph</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Stream</attributeName>
+          <attributeDefinition>Stream where salamander was captured (Bear, Paradise, ZigZag, Cascade, Canyon)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Bear</code>
+                    <definition>Bear Brook</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Canyon</code>
+                    <definition>Canyon Brook</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cascade</code>
+                    <definition>Cascade Brook</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Paradise</code>
+                    <definition>Paradise Brook</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ZigZag</code>
+                    <definition>ZigZag Brook</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Reach</attributeName>
+          <attributeDefinition>Reach where salamander was captured</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>lower</code>
+                    <definition>downstream</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>upper</code>
+                    <definition>upstream</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Meso</attributeName>
+          <attributeDefinition>Meso-habitat where salamander was captured</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RF</code>
+                    <definition>riffle</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PL</code>
+                    <definition>pool</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA</code>
+                    <definition>cascate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RN</code>
+                    <definition>run</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LatLoc</attributeName>
+          <attributeDefinition>Location along stream reach where salamander was captured (meters from confluence with Hubbard Brook/bottom of downstream reach)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Deepest portion of the stream</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WE</code>
+                    <definition>Shallow portion of the stream close to shore</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Stream Bank</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LongLoc</attributeName>
+          <attributeDefinition>Location along stream reach where salamander was captured (meters from bottom end of reach)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+                    exclusive="false">1500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SubSize</attributeName>
+          <attributeDefinition>Substrate size under which salamander was captured (length longest dimension)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+                    exclusive="false">1200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SubType</attributeName>
+          <attributeDefinition>Substrate type under which salamander was captured</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>rock</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>wood</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MassMg</attributeName>
+          <attributeDefinition>Mass of salamander</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">200</minimum>
+                  <maximum
+                    exclusive="false">26000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TailRemoved</attributeName>
+          <attributeDefinition>% of tail missing</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+                    exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TailRegrown</attributeName>
+          <attributeDefinition>% of tail regrown</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+                    exclusive="false">95</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SVL</attributeName>
+          <attributeDefinition>Snout-to-vent length</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">22.09</minimum>
+                  <maximum
+                    exclusive="false">116.63</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HeadLength</attributeName>
+          <attributeDefinition>Head length</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">5.84</minimum>
+                  <maximum
+                    exclusive="false">33.79</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HeadWidth</attributeName>
+          <attributeDefinition>Head width</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">4.23</minimum>
+                  <maximum
+                    exclusive="false">19.31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TrunkLength</attributeName>
+          <attributeDefinition>Trunk length</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">13.32</minimum>
+                  <maximum
+                    exclusive="false">80.54</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TrunkWidth</attributeName>
+          <attributeDefinition>Trunk width</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">3.11</minimum>
+                  <maximum
+                    exclusive="false">20.33</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HumerousLength</attributeName>
+          <attributeDefinition>Humerous length</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.07</minimum>
+                  <maximum
+                    exclusive="false">8.268</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FemurLength</attributeName>
+          <attributeDefinition>Femur length</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.07</minimum>
+                  <maximum
+      exclusive="false">10.07</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Missing information</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeDefinition>Comments/ notes</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments/ notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No note</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>7021</numberOfRecords>
+    </dataTable>
+    <dataTable
+      id="e48127b2f0d1a36ab4803770cdba395b" scope="document"
+          system="https://pasta.edirepository.org">
+      <entityName>HubbardBrook_SalamanderSurveyCovariates</entityName>
+      <entityDescription>Survey Details</entityDescription>
+      <physical>
+        <objectName>HubbardBrook_SalamanderSurveyCovariates.csv</objectName>
+        <size
+          unit="bytes">50914</size>
+        <authentication
+              method="MD5">e50aa802786cf3d43004a4476ce65912</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hbr/144/3/e48127b2f0d1a36ab4803770cdba395b</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Stream</attributeName>
+          <attributeDefinition>Stream where salamander was captured (Bear, Paradise, ZigZag, Cascade, Canyon)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Bear</code>
+                    <definition>Bear Brook</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Paradise</code>
+                    <definition>Paradise Brook</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ZigZag</code>
+                    <definition>ZigZag Brook</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Reach</attributeName>
+          <attributeDefinition>Reach where salamander was captured</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>lower</code>
+                    <definition>downstream</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>upper</code>
+                    <definition>upstream</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date when salamander was captured</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>data not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SurNum</attributeName>
+          <attributeDefinition>Site specific survey number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site specific survey number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Weather</attributeName>
+          <attributeDefinition>Weather during survey</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Partly cloudy</code>
+                    <definition>Partly cloudy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Overcast</code>
+                    <definition>Overcast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sunny</code>
+                    <definition>Sunny</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rain</code>
+                    <definition>Rain</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>StartTime</attributeName>
+          <attributeDefinition>Time survey started</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>data not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>EndTime</attributeName>
+          <attributeDefinition>Time survey ended</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>data not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Worker1</attributeName>
+          <attributeDefinition>Initials of surveyer 1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initials of surveyer 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Worker2</attributeName>
+          <attributeDefinition>Initials of surveyer 2</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initials of surveyer 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Worker3</attributeName>
+          <attributeDefinition>Initials of surveyer 3</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Initials of surveyer 3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>General survey comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>General survey comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>548</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

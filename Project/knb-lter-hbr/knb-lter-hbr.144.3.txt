@@ -1,0 +1,1169 @@
+
+  
+    
+      uid=HBR,o=EDI,dc=edirepository,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/cd5f5a03df194930bf87eb12157b8182Mark-recapture data of the Northern Spring Salamander (Gyrinophilus porphyriticus), Hubbard Brook Experimental Forest, 2012 – present
+    
+      Winsor Lowe
+      University of Montana
+      winsor.lowe@umontana.edu
+      https://orcid.org/0000-0001-5782-0200
+    
+    
+      Brett Addis
+      https://orcid.org/0000-0002-3794-3200
+      associatedParty
+    
+    
+      Jon Davenport
+      Appalachian Staate Univerity
+      davenportjm@appstate.edu
+      https://orcid.org/0000-0002-9911-2779
+      associatedParty
+    
+    
+      Leah Swartz
+      https://orcid.org/0000-0003-2315-8727
+      associatedParty
+    
+    
+      Madaline Cochrane
+      University of Montana
+      Madaline.cochrane@umontana.edu
+      https://orcid.org/0000-0003-1080-8495
+      associatedParty
+    
+    2022-09-01
+    
+      This data set includes spatially explicit mark-recapture data of the
+Northern Spring Salamander (Gyrinophilus porphyriticus) collected during
+the summer months (June – August) from downstream and upstream reaches
+in multiple streams in the Hubbard Brook Experimental Forest. Downstream
+reaches begin at the confluence with the Main Hubbard and extend
+upstream 500 meters and upstream reaches begin at the weir and extend
+downstream 500 meters. Downstream reaches contain brook trout and
+upstream reaches do not. We used a robust design framework with
+approximately 9 surveys per reach each summer (3 primary occasions with
+3 secondary occasions each). Salamanders were captured by hand and
+marked with either Visual Implant Elastomer and/or a PIT tag.
+      These data were gathered as part of the Hubbard Brook Ecosystem Study
+(HBES). The HBES is a collaborative effort at the Hubbard Brook
+Experimental Forest, which is operated and maintained by the USDA Forest
+Service, Northern Research Station.
+      These data have been published in the following papers: 
+      Lowe WH, Addis
+BR, Smith MR, Davenport JM. The spatial structure of variation in
+salamander survival, body condition and morphology in a headwater stream
+network. Freshwater Biol. 2018;63:1287–1299.
+https://doi.org/10.1111/fwb.13133
+      Lowe, W. H., and Addis, B. R.. 2019. Matching habitat choice and plasticity contribute to phenotype–environment covariation in a stream salamander. Ecology 100( 5):e02661. 10.1002/ecy.2661 
+      Lowe, W.H., et al. Hydrologic variability contributes to reduced survival through metamorphosis in a stream salamander. Proceedings of the National Academy of Sciences 2019; 116.39: 19563-19570.
+      Bryant, A.R., Gabor, C.R., Swartz, L.K., Wagner, R., Cochrane, M.M., Lowe, W.H. Differences in corticosterone release rates of larval Spring Salamanders (Gyrinophilus porphyriticus) in response to native fish presence. Biology 2022; 11.484. https://doi.org/10.3390/biology11040484
+      Addis, B.R., and W.H. Lowe. Environmentally associated variation in dispersal distance affects inbreeding risk in a stream salamander." The American Naturalist 2022.
+      
+    
+    
+      ecosystems
+      forests
+      watersheds
+      LTER Controlled Vocabulary
+    
+    
+      HBR
+      Hubbard Brook LTER
+      Hubbard Brook Experimental Forest
+      Hubbard Brook Ecosystem Study
+      HBES
+      HBEF
+      New Hampshire
+      NH
+      White Mountain National Forest
+      HBES Vocabulary
+    
+    
+      biota
+      climatologyMeteorologyAtmosphere
+      ISO 19115 Topic Category
+    
+    
+      Climate change
+      Climate change effects
+      Ecology, Ecosystems, & Environment
+      National Research & Development Taxonomy
+    
+    
+      Gyrinophilus porphyriticus
+      mark-recapture
+      headwater streams
+      salamander
+      Hubbard Brook Ecosystem Study
+    
+    
+      populations
+      LTER Core Research Areas
+    
+    
+      This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. 
+      While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+
+    
+    https://doi.org/10.6073/pasta/cd5f5a03df194930bf87eb12157b8182
+      
+        Hubbard Brook Experimental Forest in central New Hampshire, USA. Bear, Canyon, Cascade, Paradise, and Zigzag Brooks are hydrologically independent and flow into the Main Hubbard.
+        
+          -71.8062
+          -71.70022
+          43.914
+          43.959
+        
+      
+      
+        
+          
+            2012-06-20
+          
+          
+            2021-08-31
+          
+        
+      
+      
+        
+          kingdom
+          Animalia
+          1
+          
+            phylum
+            Chordata
+            44
+            
+              class
+              Amphibia
+              131
+              
+                order
+                Caudata
+                953
+                
+                  family
+                  Plethodontidae
+                  6748
+                  
+                    genus
+                    Gyrinophilus
+                    2431422
+                    
+                      species
+                      Gyrinophilus porphyriticus
+                      2431423
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    
+      ongoing
+    
+    
+      Hubbard Brook Ecosystem Study
+      hbr-im@lternet.edu
+    
+    Environmental Data Initiativeinfo@edirepository.orghttps://edirepository.org0330j0z60Environmental Data Initiative
+      
+        
+          Capture–mark–recapture (CMR) surveys were conducted mid-June through mid-September of 2012–2015 and 2018-2021 for three streams (Bear Brook, Paradise Brook, and Zigzag Brook). 
+CMR surveys were conducted for two additional streams (Canyon Brook and Cascade Brook) from 2012-2014. 
+Each stream was divided into two 500‐m‐long reaches (downstream and upstream), except for Upper Canyon which was only 330-m long.
+Downstream reaches started at the confluence with Hubbard Brook and weirs set the upstream end of the upstream reaches. 
+Distances between upstream and downstream reaches varied by 400, 0, 0, 250, and 500 m in Bear, Canyon, Cascade, Paradise, and Zigzag Brooks, respectively.
+Each stream was surveyed nine times in each field season. We conducted three surveys of each stream during three two-week periods distributed evenly throughout the field season (i.e. primary number). In each survey, a constant search effort was maintained by turning one cover object per meter of stream length. Salamanders were individually marked with visible implant elastomer from 2012-2015 and 8-mm PIT-tags from 2018-2021, then returned to the same location where they were found (i.e., cover object and meter of stream).
+          All G. porphyriticus individuals were photographed to quantify body morphology. Animals were placed on a level stage with the camera approximately 20 cm above the stage, which allowed us to photograph the entire dorsal surface of the animal, along with a ruler. The ruler was used to calibrate morphological measurements in mm. We used these photographs to measure head, trunk, and leg morphology, as well as SVL, the standard measure of body size in amphibians. We also recorded the habitat (riffle, pool) where each salamander was captured, based on flow and gradient conditions 0.5 m upstream and downstream of a salamander’s location.
+We also recorded the meter location (LongLoc) where we captured each individual, such that locations at the confluence of the Hubbard Brook were 0 and increased by meter of stream length as you moved upstream.
+
+        
+      
+    
+    
+      Long-Term Ecological Research at Hubbard Brook Experimental Forest (1988)
+      
+        Timothy Fahey
+        Cornell University
+        tjf5@cornell.edu
+        https://orcid.org/0000-0003-1283-1162
+        Principal Investigator
+      
+      National Science Foundation (NSF) 8702331
+      
+        Long-term Ecological Research (LTER) at the Hubbard Brook Experimental Forest (1992)
+        
+          Timothy Fahey
+          Cornell University
+          tjf5@cornell.edu
+          https://orcid.org/0000-0003-1283-1162
+          Principal Investigator
+        
+        National Science Foundation (NSF) 9211768
+      
+      
+        LTER: Hubbard Brook Experimental Forest (1998)
+        
+          Timothy Fahey
+          Cornell University
+          tjf5@cornell.edu
+          https://orcid.org/0000-0003-1283-1162
+          Principal Investigator
+        
+        National Science Foundation (NSF) 9810221
+      
+      
+        Long-Term Ecological Research (LTER) at Hubbard Brook Experimental Forest (HBR-LTER) (2005)
+        
+          Timothy Fahey
+          Cornell University
+          tjf5@cornell.edu
+          https://orcid.org/0000-0003-1283-1162
+          Principal Investigator
+        
+        National Science Foundation (NSF) 0423259
+      
+      
+        Long-Term Ecological Research at Hubbard Brook Experimental Forest (2010)
+        
+          Timothy Fahey
+          Cornell University
+          tjf5@cornell.edu
+          https://orcid.org/0000-0003-1283-1162
+          Principal Investigator
+        
+        National Science Foundation (NSF) 1114804
+      
+      
+        LTER: Long Term Ecological Research at the Hubbard Brook Experimental Forest (2016)
+        
+          Peter Groffman
+          Cary Institute of Ecosystem Studies
+          groffmanp@caryinstitute.org
+          https://orcid.org/0000-0001-8371-6255
+          Principal Investigator
+        
+        National Science Foundation (NSF) 1637685
+      
+      
+        Long-Term Ecological Research at the Hubbard Brook Experimental Forest (2016)
+        
+          Gary Lovett
+          Cary Institute of Ecosystem Studies
+          lovettg@caryinstitute.org
+          https://orcid.org/0000-0002-8411-8027
+          Principal Investigator
+        
+        National Science Foundation (NSF) 1633026
+      
+      
+        The causes and consequences of variation in dispersal distance
+        
+          Winsor Lowe
+          University of Montana
+          winsor.lowe@umontana.edu
+          https://orcid.org/0000-0001-5782-0200
+          Principal Investigator
+        
+        National Science Foundation (NSF) DEB-1655653
+      
+      
+        Coexistence in stream metacommunities
+        
+          Winsor Lowe
+          University of Montana
+          winsor.lowe@umontana.edu
+          https://orcid.org/0000-0001-5782-0200
+          Principal Investigator
+        
+        National Science Foundation (NSF) DEB-1050459
+      
+    
+    
+      HubbardBrook_SalamanderCaptureRecapture
+      Capture-mark-recapture data for Hubbard Brook salamanders
+      
+        HubbardBrook_SalamanderCaptureRecapture.csv
+        885797
+        eb2f74714dfb644309705ff7b5352379
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-hbr/144/3/ad0c647fa3920058ae1fe0f2432c05d7
+          
+        
+      
+      
+        
+          ElastomerID
+          Visual Implant Elastomer ID
+          string
+          
+            
+              
+                
+                  Visual Implant Elastomer ID
+                
+              
+            
+          
+        
+        
+          PITTagID
+          PIT tag ID
+          string
+          
+            
+              
+                
+                  PIT tag ID
+                
+              
+            
+          
+        
+        
+          Date
+          Date when salamander was captured
+          date
+          
+            
+              YYYY-MM-DD
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          SurNum
+          Site specific survey number
+          string
+          
+            
+              
+                
+                  Site specific survey number
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Primary
+          Primary occasion number
+          string
+          
+            
+              
+                
+                  Primary occasion number
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          OldNew
+          Indicates whether animal is a recapture (old) or new individual (new)
+          string
+          
+            
+              
+                
+                  
+                    N
+                    new individual
+                  
+                  
+                    O
+                    recapture
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Species
+          Species of salamanader
+          string
+          
+            
+              
+                
+                  
+                    GP
+                    Gyrinophilus porphyriticus
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Sex
+          Sex of salamander
+          string
+          
+            
+              
+                
+                  
+                    F
+                    Female
+                  
+                  
+                    M
+                    Male
+                  
+                  
+                    U
+                    Unknown
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Stage
+          Developmental stage of salamander
+          string
+          
+            
+              
+                
+                  
+                    A
+                    Adult
+                  
+                  
+                    L
+                    Larva
+                  
+                  
+                    M
+                    Metamorph
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Stream
+          Stream where salamander was captured (Bear, Paradise, ZigZag, Cascade, Canyon)
+          string
+          
+            
+              
+                
+                  
+                    Bear
+                    Bear Brook
+                  
+                  
+                    Canyon
+                    Canyon Brook
+                  
+                  
+                    Cascade
+                    Cascade Brook
+                  
+                  
+                    Paradise
+                    Paradise Brook
+                  
+                  
+                    ZigZag
+                    ZigZag Brook
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Reach
+          Reach where salamander was captured
+          string
+          
+            
+              
+                
+                  
+                    lower
+                    downstream
+                  
+                  
+                    upper
+                    upstream
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Meso
+          Meso-habitat where salamander was captured
+          string
+          
+            
+              
+                
+                  
+                    RF
+                    riffle
+                  
+                  
+                    PL
+                    pool
+                  
+                  
+                    CA
+                    cascate
+                  
+                  
+                    RN
+                    run
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          LatLoc
+          Location along stream reach where salamander was captured (meters from confluence with Hubbard Brook/bottom of downstream reach)
+          string
+          
+            
+              
+                
+                  
+                    T
+                    Deepest portion of the stream
+                  
+                  
+                    WE
+                    Shallow portion of the stream close to shore
+                  
+                  
+                    B
+                    Stream Bank
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          LongLoc
+          Location along stream reach where salamander was captured (meters from bottom end of reach)
+          float
+          
+            
+              
+                meter
+              
+              
+                real
+                
+                  0
+                  1500
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          SubSize
+          Substrate size under which salamander was captured (length longest dimension)
+          float
+          
+            
+              
+                millimeter
+              
+              
+                whole
+                
+                  0
+                  1200
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          SubType
+          Substrate type under which salamander was captured
+          string
+          
+            
+              
+                
+                  
+                    R
+                    rock
+                  
+                  
+                    W
+                    wood
+                  
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          MassMg
+          Mass of salamander
+          float
+          
+            
+              
+                milligram
+              
+              
+                natural
+                
+                  200
+                  26000
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          TailRemoved
+          % of tail missing
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                whole
+                
+                  0
+                  100
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          TailRegrown
+          % of tail regrown
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+                
+                  0
+                  95
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          SVL
+          Snout-to-vent length
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+                
+                  22.09
+                  116.63
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          HeadLength
+          Head length
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+                
+                  5.84
+                  33.79
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          HeadWidth
+          Head width
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+                
+                  4.23
+                  19.31
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          TrunkLength
+          Trunk length
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+                
+                  13.32
+                  80.54
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          TrunkWidth
+          Trunk width
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+                
+                  3.11
+                  20.33
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          HumerousLength
+          Humerous length
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+                
+                  1.07
+                  8.268
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          FemurLength
+          Femur length
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+                
+                  1.07
+                  10.07
+                
+              
+            
+          
+          
+            NA
+            Missing information
+          
+        
+        
+          Notes
+          Comments/ notes
+          string
+          
+            
+              
+                
+                  Comments/ notes
+                
+              
+            
+          
+          
+            NA
+            No note
+          
+        
+      
+      7021
+    
+    
+      HubbardBrook_SalamanderSurveyCovariates
+      Survey Details
+      
+        HubbardBrook_SalamanderSurveyCovariates.csv
+        50914
+        e50aa802786cf3d43004a4476ce65912
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-hbr/144/3/e48127b2f0d1a36ab4803770cdba395b
+          
+        
+      
+      
+        
+          Stream
+          Stream where salamander was captured (Bear, Paradise, ZigZag, Cascade, Canyon)
+          string
+          
+            
+              
+                
+                  
+                    Bear
+                    Bear Brook
+                  
+                  
+                    Paradise
+                    Paradise Brook
+                  
+                  
+                    ZigZag
+                    ZigZag Brook
+                  
+                
+              
+            
+          
+        
+        
+          Reach
+          Reach where salamander was captured
+          string
+          
+            
+              
+                
+                  
+                    lower
+                    downstream
+                  
+                  
+                    upper
+                    upstream
+                  
+                
+              
+            
+          
+        
+        
+          Date
+          Date when salamander was captured
+          date
+          
+            
+              YYYY-MM-DD
+              
+            
+          
+          
+            NA
+            data not available
+          
+        
+        
+          SurNum
+          Site specific survey number
+          string
+          
+            
+              
+                
+                  Site specific survey number
+                
+              
+            
+          
+        
+        
+          Weather
+          Weather during survey
+          string
+          
+            
+              
+                
+                  
+                    Partly cloudy
+                    Partly cloudy
+                  
+                  
+                    Overcast
+                    Overcast
+                  
+                  
+                    Sunny
+                    Sunny
+                  
+                  
+                    Rain
+                    Rain
+                  
+                
+              
+            
+          
+        
+        
+          StartTime
+          Time survey started
+          date
+          
+            
+              hh:mm
+              
+            
+          
+          
+            NA
+            data not available
+          
+        
+        
+          EndTime
+          Time survey ended
+          date
+          
+            
+              hh:mm
+              
+            
+          
+          
+            NA
+            data not available
+          
+        
+        
+          Worker1
+          Initials of surveyer 1
+          string
+          
+            
+              
+                
+                  Initials of surveyer 1
+                
+              
+            
+          
+        
+        
+          Worker2
+          Initials of surveyer 2
+          string
+          
+            
+              
+                
+                  Initials of surveyer 2
+                
+              
+            
+          
+        
+        
+          Worker3
+          Initials of surveyer 3
+          string
+          
+            
+              
+                
+                  Initials of surveyer 3
+                
+              
+            
+          
+        
+        
+          Comments
+          General survey comments
+          string
+          
+            
+              
+                
+                  General survey comments
+                
+              
+            
+          
+        
+      
+      548
+    
+  

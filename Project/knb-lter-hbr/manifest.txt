@@ -1,0 +1,6 @@
+Manifest file for knb-lter-hbr.144.3.zip created on Mon Mar 18 16:15:05 UTC 2024
+HubbardBrook_SalamanderCaptureRecapture.csv (885797 bytes)
+HubbardBrook_SalamanderSurveyCovariates.csv (50914 bytes)
+knb-lter-hbr.144.3.xml (54640 bytes)
+knb-lter-hbr.144.3.txt (27641 bytes)
+knb-lter-hbr.144.3.report.xml (54382 bytes)
